@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap");
+body {
+  padding: 0 20px;
+  margin: 20px auto;
+  max-width: 1200px;
+  font-family: "Noto Serif", serif;
+}
+h2,
+p,
+ul,
+a {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  color: #222;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  text-transform: uppercase;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+nav li {
+  list-style-type: none;
+  margin-left: 20px;
+}
+nav h1 {
+  font-size: 3em;
+}
+nav a {
+  color: #777;
+  font-weight: 300;
+}
+footer {
+  color: #777;
+  text-align: center;
+  margin-top: 1em;
+  position: relative;
+}
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+input,
+textarea {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 8px;
+}
+label {
+  display: block;
+  margin-top: 24px;
+}
+textarea {
+  height: 120px;
+}
+button {
+  background: crimson;
+  color: white;
+  padding: 6px;
+  border: 0;
+  font-size: 1em;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+  margin-top: 1.3em;
+}
